@@ -16,7 +16,7 @@ import Header from './componets/Header/Header';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
      <BrowserRouter> {/*Tag principal para universialização das rotas*/}
       <Header/>
       <div>

@@ -1,0 +1,11 @@
+#container-lista {
+    display: flex;
+}
+
+#container-lista-invisible {
+    display: none;
+}
+
+#botao:hover #container-lista {
+    display: none;
+}

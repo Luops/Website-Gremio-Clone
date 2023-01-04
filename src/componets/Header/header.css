@@ -1,0 +1,18 @@
+#container-lista {
+    color: white;
+}
+
+#container-navsublist {
+    color: black;
+    position: absolute;
+    top: 90px;
+    padding: 20px 15px;
+    background-color: white;
+}
+
+
+#container-navsublist:hover + #nav-list {
+    display: none;
+} 
+
+
