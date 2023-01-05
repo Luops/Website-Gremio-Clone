@@ -1,11 +1,6 @@
-#container-lista {
-    display: flex;
-}
-
-#container-lista-invisible {
-    display: none;
-}
-
-#botao:hover #container-lista {
-    display: none;
-}
+/*#container-navsublist {
+    color: black;
+    position: absolute;
+    top: 90px;
+    padding: 20px 15px;
+}*/

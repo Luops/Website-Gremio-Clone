@@ -1,18 +1,16 @@
-#container-lista {
-    color: white;
+/*block absolute mt-4 py-5 px-5 group-hover/headerList:z-10 group-hover/headerList:border-t-4 group-hover/headerList:border-t-blue-400 group-hover/headerList:bg-white*/
+
+#list:hover {
+    display: block;
 }
 
-#container-navsublist {
-    color: black;
-    position: absolute;
-    top: 90px;
-    padding: 20px 15px;
+#list:hover ul {
+    display: block;
     background-color: white;
 }
 
-
-#container-navsublist:hover + #nav-list {
+#sublist {
     display: none;
-} 
-
+    position: absolute;
+}
 
