@@ -15,57 +15,17 @@ import {
   FaSearch
 } from "react-icons/fa"
 
-const Header = () => {
-  const TextLogo = [
-    {id: 1, text: "Grêmio"},
-    {id: 2, text: "Foot-Ball"},
-    {id: 3, text: "Porto Alegrense"},
-  ]
+//datas
+import {HeaderList, TextLogo} from '../../data/data'
 
-  const HeaderList = [
-    {id: 1, option: "Futebol", URL: "/", 
-      Sublist: [
-        {id: 1, text: "Categoria de base", URL: "/futebol/categoria-de-base"},
-        {id: 2, text: "Escola de futebol", URL: "/futebol/escola-de-futebol"},
-        {id: 3, text: "Avaliação", URL: "/futebol/avaliacao"},
-        {id: 4, text: "Núcleos de captação", URL: "/futebol/nucleos-de-captacao"},
-        {id: 5, text: "Guias da partida", URL: "/futebol/guias-da-partida"},
-      ]},
-    {id: 2, option: "Clube", URL: "/", 
-      Sublist: [
-        {id: 1, text: "Teste", URL: "/teste"}
-      ]},
-    {id: 3, option: "Sócios", URL: "/socios", 
-      Sublist: [
-        {id: 1, text: "", URL: ""}
-      ]},
-    {id: 4, option: "Grêmiomania", URL: "/gremio-mania", 
-      Sublist: [
-        {id: 1, text: "", URL: ""}
-      ]},
-    {id: 5, option: "Ingressos", URL: "/ingressos", 
-      Sublist: [
-        {id: 1, text: "", URL: ""}
-      ]},
-    {id: 6, option: "Notícias", URL: "/noticias", 
-      Sublist: [
-        {id: 1, text: "", URL: ""}
-      ]},
-    {id: 7, option: "Contato", URL: "/contato", 
-      Sublist: [
-        {id: 1, text: "", URL: ""}
-      ]},
-    {id: 8, option: "Grêmio Play", URL: "/gremio-play", 
-      Sublist: [
-        {id: 1, text: "", URL: ""}
-      ]},
-  ]
+const Header = () => {
+  
 
   return (
     <header className='w-full bg-transparent'>
       <nav className='w-full flex px-16 py-4 items-center justify-center'>
         <div className='w-4/12 flex gap-4'> {/*Logo*/}
-          <a href="/">
+          <a href="/" className='w-20'>
             <img src={GremioLogo} alt="Grêmio" className='w-20' />
           </a>
           <div className='flex flex-col justify-end py-2'>
@@ -74,6 +34,7 @@ const Header = () => {
             ))}
           </div>
         </div>
+        {/*Sublista do header*/}
         <ul className='flex w-full justify-end items-center gap-5 pt-10 uppercase'>
           {HeaderList.map((List) => (
               <li className='group/option' id='list'>
@@ -82,22 +43,134 @@ const Header = () => {
                 href={List.URL}>
                   {List.option}
                 </a>
-                <div className="bg-white opacity-0 pb-5 before:content-['H']"></div>
-                <ul className='border-t-4 border-t-blue-400' id="sublist">
+                <div className="bg-white opacity-0 pb-5 before:content-[''] h-10"></div>
+                {List.Sublist.length !== 0 && (
+                <ul className='border-t-4 border-t-blue-400 py-2 px-5' id="sublist">
+                  {/*Coluna 1*/}
+                  <div>
                   {List.Sublist.map((Sublist) => (
                     <>
                     {Sublist.text.length !== 0 && (
-                      <Sublista key={Sublist} Sublist={Sublist}/>
+                      <li>
+                        {Sublist.column === 1 && (
+                          <Sublista key={Sublist} Sublist={Sublist}/>
+                        )}
+                      </li>
                     )}
                     </>
                   ))}
+                  </div>
+                  {/*Coluna 2*/}
+                  <div>
+                  {List.Sublist.map((Sublist) => (
+                    <>
+                    {Sublist.text.length !== 0 && (
+                      <li>
+                        {Sublist.column === 2 && (
+                          <Sublista key={Sublist} Sublist={Sublist}/>
+                        )}
+                      </li>
+                    )}
+                    </>
+                  ))}
+                  </div>
+                  {/*Coluna 3*/}
+                  <div>
+                  {List.Sublist.map((Sublist) => (
+                    <>
+                    {Sublist.text.length !== 0 && (
+                      <li>
+                        {Sublist.column === 3 && (
+                          <Sublista key={Sublist} Sublist={Sublist}/>
+                        )}
+                      </li>
+                    )}
+                    </>
+                  ))}
+                  </div>
+                  {/*Coluna 4*/}
+                  <div>
+                  {List.Sublist.map((Sublist) => (
+                    <>
+                    {Sublist.text.length !== 0 && (
+                      <li>
+                        {Sublist.column === 4 && (
+                          <Sublista key={Sublist} Sublist={Sublist}/>
+                        )}
+                      </li>
+                    )}
+                    </>
+                  ))}
+                  </div>
                 </ul>
+                )}
+                {List.Sublist.length === 0 && (
+                <ul className='border-t-4 border-t-blue-400 py-2 px-5 invisible' id="sublist">
+                  {/*Coluna 1*/}
+                  <div>
+                  {List.Sublist.map((Sublist) => (
+                    <>
+                    {Sublist.text.length !== 0 && (
+                      <li>
+                        {Sublist.column === 1 && (
+                          <Sublista key={Sublist} Sublist={Sublist}/>
+                        )}
+                      </li>
+                    )}
+                    </>
+                  ))}
+                  </div>
+                  {/*Coluna 2*/}
+                  <div>
+                  {List.Sublist.map((Sublist) => (
+                    <>
+                    {Sublist.text.length !== 0 && (
+                      <li>
+                        {Sublist.column === 2 && (
+                          <Sublista key={Sublist} Sublist={Sublist}/>
+                        )}
+                      </li>
+                    )}
+                    </>
+                  ))}
+                  </div>
+                  {/*Coluna 3*/}
+                  <div>
+                  {List.Sublist.map((Sublist) => (
+                    <>
+                    {Sublist.text.length !== 0 && (
+                      <li>
+                        {Sublist.column === 3 && (
+                          <Sublista key={Sublist} Sublist={Sublist}/>
+                        )}
+                      </li>
+                    )}
+                    </>
+                  ))}
+                  </div>
+                  {/*Coluna 4*/}
+                  <div>
+                  {List.Sublist.map((Sublist) => (
+                    <>
+                    {Sublist.text.length !== 0 && (
+                      <li>
+                        {Sublist.column === 4 && (
+                          <Sublista key={Sublist} Sublist={Sublist}/>
+                        )}
+                      </li>
+                    )}
+                    </>
+                  ))}
+                  </div>
+                </ul>
+                )}
               </li>
           ))}
         </ul>
-        <form action="" className="flex items-center pl-6 pt-3">
-          <button id="botao" className='text-white pb-3 '>
-            <FaSearch className='hover:border-b-4 hover:border-b-blue-400 pb-3'/>
+        {/*Pesquisa*/}
+        <form action="" className="flex items-center pl-6 pt-5">
+          <button id="botao" className='text-white mb-5 text-1xl'>
+            <FaSearch className=''/>
           </button>
         </form>
       </nav>

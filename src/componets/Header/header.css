@@ -7,10 +7,26 @@
 #list:hover ul {
     display: block;
     background-color: white;
+    display: flex;
 }
 
 #sublist {
     display: none;
     position: absolute;
+    margin-left: -18%;
 }
+
+#botao {
+    height: 50px;
+}
+
+#botao svg {
+    height: 50px;
+}
+
+#botao:hover {
+    border-bottom: 4px solid rgba(96, 165, 250, 1);
+}
+
+/*hover:border-b-4 hover:border-b-blue-400 pb-3*/
 

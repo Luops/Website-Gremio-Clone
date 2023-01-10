@@ -1,6 +1,4 @@
-/*#container-navsublist {
-    color: black;
-    position: absolute;
-    top: 90px;
-    padding: 20px 15px;
-}*/
+a, p {
+    max-width: 220px;
+    font-size: calc(1.15em * 0.8);
+}
