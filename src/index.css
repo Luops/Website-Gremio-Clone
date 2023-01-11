@@ -8,11 +8,4 @@
     font-family: Helvetica;
 }
 
-header {
-    height: 85vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../src/images/background-header.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-clip: border-box;
-}
+

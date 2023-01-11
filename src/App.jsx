@@ -19,11 +19,11 @@ function App() {
     <div className="">
      <BrowserRouter> {/*Tag principal para universialização das rotas*/}
       <Header/>
-      <div>
+      <main>
         <Routes>{/*Páginas do App*/}
           <Route path="/" element={<Home/>}/>
         </Routes>
-      </div>
+      </main>
      </BrowserRouter>
     </div>
   );

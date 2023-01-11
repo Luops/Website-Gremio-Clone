@@ -1,4 +1,11 @@
-/*block absolute mt-4 py-5 px-5 group-hover/headerList:z-10 group-hover/headerList:border-t-4 group-hover/headerList:border-t-blue-400 group-hover/headerList:bg-white*/
+header {
+    height: 85vh;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/background-suarez.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
 
 #list:hover {
     display: block;
@@ -28,5 +35,4 @@
     border-bottom: 4px solid rgba(96, 165, 250, 1);
 }
 
-/*hover:border-b-4 hover:border-b-blue-400 pb-3*/
 

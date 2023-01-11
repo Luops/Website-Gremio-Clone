@@ -1,3 +1,7 @@
+//Images
+import LogoGremio from '../images/gremio-logo-escudo.png'
+import LogoSaoLuiz from '../images/sao-luiz.png'
+
 /*Dados para o Header*/
 export const HeaderList = [
     {id: 1, option: "Futebol", URL: "/", 
@@ -67,4 +71,18 @@ export const TextLogo = [
     {id: 1, text: "Grêmio"},
     {id: 2, text: "Foot-Ball"},
     {id: 3, text: "Porto Alegrense"},
-  ]
+]
+
+export const NextGame = [
+  {id: 1, 
+    homeTeam: "Grêmio", 
+    logoHome: LogoGremio, 
+    visitingTeam: "São Luiz", 
+    logoVisit: LogoSaoLuiz,
+    date: "17/01/2023",
+    hour: "19",
+    minutes: "30",
+    championship: "Recopa Gaúcha 2023",
+    place: "Arena do Grêmio",
+    city: "Porto Alegre/RS"}
+]
