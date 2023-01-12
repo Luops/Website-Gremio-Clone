@@ -6,6 +6,7 @@
     margin-block-end: 0;
     margin-block-start: 0;
     font-family: Helvetica;
+    box-sizing: border-box;
 }
 
 

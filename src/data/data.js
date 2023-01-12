@@ -1,6 +1,8 @@
 //Images
 import LogoGremio from '../images/gremio-logo-escudo.png'
 import LogoSaoLuiz from '../images/sao-luiz.png'
+import Anuncio1 from '../images/anuncio1.jpg'
+import Anuncio2 from '../images/anuncio2.png'
 
 /*Dados para o Header*/
 export const HeaderList = [
@@ -85,4 +87,9 @@ export const NextGame = [
     championship: "Recopa Gaúcha 2023",
     place: "Arena do Grêmio",
     city: "Porto Alegre/RS"}
+]
+
+export const Anuncios = [
+  {id: 1, name: "Anúncio 1", image: Anuncio1, URL: "https://github.com/Luops"},
+  {id: 2, name: "Anúncio 2", image: Anuncio2, URL: "https://github.com/Luops"},
 ]

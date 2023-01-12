@@ -25,7 +25,7 @@ const Header = () => {
     <header className='w-full bg-transparent'>
       <nav className='w-full flex px-16 py-4 items-center justify-center'>
         {/*Logo*/}
-        <div className='w-4/12 flex gap-4'>
+        <div className='w-4/12 flex gap-4 '>
           <a href="/" className='w-20'>
             <img src={GremioLogo} alt="Grêmio" className='w-20' />
           </a>
