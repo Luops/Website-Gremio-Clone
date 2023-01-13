@@ -1,0 +1,17 @@
+@media (max-width: 991px) {
+    #article-side {
+        display: none !important;
+    }
+    #article-side-grid {
+        display: block !important;
+    }
+    #article-grid-2,
+    #article-grid-4{
+        margin-top: -248px;
+        height: 235px;
+    }
+    #article-grid-1,
+    #article-grid-3{
+        height: 235px;
+    }
+}

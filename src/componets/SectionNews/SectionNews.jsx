@@ -5,6 +5,7 @@ import './Sectionnews.css'
 
 // Components
 import Anuncio from './Anuncio/Anuncio';
+import GridNews from './GridNews/GridNews';
 
 // Botão das notícias
 const ActiveButtonContext = createContext();
@@ -47,8 +48,9 @@ const SectionNews = () => {
           <MyButton id="button-3" text="Gauchão"/>
         </ActiveButtonContext.Provider>
       </div>
+      {/*Anúncio*/}
       <Anuncio />
-      
+      <GridNews />
     </section>
   )
 }

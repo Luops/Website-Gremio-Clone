@@ -19,7 +19,7 @@ import {
 
 const Anuncio = () => {
   return (
-    <article className='h-[140px] bg-black mt-7 mx-[7%]'>
+    <article className='h-[140px] mt-7 w-100'>
         <Swiper
         id='swiper'
         slidesPerView={1}
@@ -28,11 +28,11 @@ const Anuncio = () => {
         autoplay={true}
         allowTouchMove={false}
         modules={[Autoplay]}
-        className=''>
+        className='xl:w-[1120px] w-[90%]'>
           {Anuncios.map((Anuncio) => (
             <SwiperSlide id='swiper-slide'className='' key={Anuncio.id} Anuncio={Anuncio}>
-              <a className='w-100 h-100' href={Anuncio.URL} target='_blank'>
-                <img id="img-anuncio" className='' src={Anuncio.image} alt={Anuncio.name} />
+              <a className='xl:w-[1120px]' href={Anuncio.URL} target='_blank'>
+                <img id="img-anuncio" className='xl:w-[1120px]' src={Anuncio.image} alt={Anuncio.name} />
               </a>
             </SwiperSlide>
           ))}
