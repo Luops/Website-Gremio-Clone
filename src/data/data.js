@@ -3,6 +3,11 @@ import LogoGremio from '../images/gremio-logo-escudo.png'
 import LogoSaoLuiz from '../images/sao-luiz.png'
 import Anuncio1 from '../images/anuncio1.jpg'
 import Anuncio2 from '../images/anuncio2.png'
+import LaranjeirasCup from '../images/gre-mio-vence-laranjeiras-cup-nas-categorias-sub-7--sub-8-e-sub-13-34757.jpeg'
+import FinalizaPreTemporada from '../images/gre-mio-finaliza-pra--temporada-mr_-jack_bet-no-ct-luiz-carvalho--34755.jpeg'
+import CopaSaoPaulo from '../images/gre-mio-deixa-a-disputa-da-copa-sa-o-paulo-2023-34753.jpg'
+import RecomecaPreTemporada from '../images/atletas-voltam-aos-trabalhos-na-pra--temporada-mr-jack_bet-34736.jpg'
+import Guia from '../images/guia.png'
 
 /*Dados para o Header*/
 export const HeaderList = [
@@ -90,6 +95,54 @@ export const NextGame = [
 ]
 
 export const Anuncios = [
-  {id: 1, name: "Anúncio 1", image: Anuncio1, URL: "https://github.com/Luops"},
-  {id: 2, name: "Anúncio 2", image: Anuncio2, URL: "https://github.com/Luops"},
+  {id: 1, name: "Anúncio 1", image: Anuncio1, URL: "https://gremio.net/"},
+  {id: 2, name: "Anúncio 2", image: Anuncio2, URL: "https://gremio.net/"},
+]
+
+export const News = [
+  {id: 1, 
+  kindOfNews: "Campeões", 
+  title: "Grêmio vence Laranjeiras CUP nas categorias sub-7, sub-8 e sub-13",
+  image: LaranjeirasCup,
+  date: "15 JAN 2023",
+  hour: "15",
+  minutes: "51",
+  fixed: "No",
+  URL: "https://gremio.net/"},
+  {id: 2, 
+    kindOfNews: "Preparação", 
+    title: "Grêmio finliza Pré-Temporada Mr.Jack.bet no CT Luiz Carvalho",
+    image: FinalizaPreTemporada,
+    date: "15 JAN 2023",
+    hour: "12",
+    minutes: "41",
+    fixed: "No",
+    URL: "https://gremio.net/"},
+  {id: 3, 
+  kindOfNews: "Final", 
+  title: "Grêmio deixa a disputa da Copa São Paulo 2023",
+  image: CopaSaoPaulo,
+  date: "14 JAN 2023",
+  hour: "19",
+  minutes: "12",
+  fixed: "No",
+  URL: "https://gremio.net/"},  
+  {id: 4, 
+    kindOfNews: "Trabalho", 
+    title: "Atletas voltam aos trabalhos na Pré-temporada MR Jack.bet",
+    image: RecomecaPreTemporada,
+    date: "13 JAN 2023",
+    hour: "18",
+    minutes: "15",
+    fixed: "No",
+    URL: "https://gremio.net/"},
+  {id: 5, 
+  kindOfNews: "", 
+  title: "GUIA DA PARTIDA",
+  image: Guia,
+  date: "03 NOV 2022",
+  hour: "18",
+  minutes: "11",
+  fixed: "Yes",
+  URL: "https://gremio.net/"},
 ]

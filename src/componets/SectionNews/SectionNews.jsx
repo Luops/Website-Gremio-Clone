@@ -32,10 +32,6 @@ function MyButton({ id, text }) {
 // 
 
 const SectionNews = () => {
-  // const [isCompetition, setIsCompetition] = useState(true);
-  // const [isRecopa, setIsRecopa] = useState(false);
-  // const [isGauchao, setIsGauchao] = useState(false);
-
   const [activeButtonId, setActiveButtonId] = useState('button-1');
 
   return (
