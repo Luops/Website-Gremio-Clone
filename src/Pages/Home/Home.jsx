@@ -16,12 +16,14 @@ import {
 //Components
 import SectionGame from '../../componets/SectionGame/SectionGame'
 import SectionNews from '../../componets/SectionNews/SectionNews'
+import SectionGremioPlay from '../../componets/SectionGremioPlay/SectionGremioPlay'
 
 const Home = () => {
   return (
     <div className=''>
       <SectionGame />
       <SectionNews />
+      <SectionGremioPlay />
     </div>
   )
 }

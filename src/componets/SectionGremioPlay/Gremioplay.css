@@ -1,0 +1,35 @@
+#container-play {
+    background: url(../../images/gremio-play-background.jpg) no-repeat center center;
+    width: 100%;
+    height: 590px;
+    background-size: cover;
+    margin-top: -400px;
+}
+
+#btn-desktop {
+
+}
+
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    #container-play {
+        margin-top: -150px;
+    }
+}
+
+@media (max-width: 767px) {
+    #container-play {
+        margin-top: 0px;
+    }
+    #btn-desktop {
+        display: none;
+    }
+    #btn-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
