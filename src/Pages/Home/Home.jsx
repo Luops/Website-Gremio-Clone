@@ -3,20 +3,11 @@ import React from 'react'
 //CSS
 import './home.css'
 
-//Data
-import {
-  NextGame
-} from '../../data/data'
-
-//Icons
-import {
-  FaCalendarAlt
-} from 'react-icons/fa'
-
 //Components
 import SectionGame from '../../componets/SectionGame/SectionGame'
 import SectionNews from '../../componets/SectionNews/SectionNews'
 import SectionGremioPlay from '../../componets/SectionGremioPlay/SectionGremioPlay'
+import SectionGremioRadio from '../../componets/SectionGremioRadio/SectionGremioRadio'
 
 const Home = () => {
   return (
@@ -24,6 +15,7 @@ const Home = () => {
       <SectionGame />
       <SectionNews />
       <SectionGremioPlay />
+      <SectionGremioRadio />
     </div>
   )
 }

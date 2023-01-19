@@ -1,0 +1,89 @@
+#container-aovivo,
+#container-escute,
+#container-cobertura,
+#container-gremiotv {
+    cursor: pointer; 
+}
+
+#corpo,
+#corpo-blue {
+    transition: .4s ease-in-out;
+}
+
+#ponta {
+    width: 0; 
+    height: 0; 
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid #333333;
+    transition: .4s ease-in-out;
+}
+
+#ponta-blue {
+    width: 0; 
+    height: 0; 
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid #02A8E7;
+    transition: .4s ease-in-out;
+}
+
+#corpo:hover {
+    background-color:#292929 ;
+}
+
+#corpo-blue:hover {
+    background-color:#017cac ;
+}
+
+#corpo:hover + #ponta {
+    border-left: 50px solid #292929;
+}
+
+#corpo-blue:hover + #ponta-blue {
+    border-left: 50px solid #017cac;
+}
+
+@media (max-width: 1199px) {
+    #container-options {
+        gap: 0 !important;
+    }
+}
+
+@media (max-width: 991px) {
+    #ponta,
+    #ponta-blue {
+        display: none;
+    }
+    #section-gremioradio {
+        flex-direction: column !important;
+    }
+    #container-options {
+        gap: 20px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    * {
+        max-width: none;
+    }
+    #container-options {
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    #container-options > div {
+        width: 100% !important;
+    }
+    #corpo,
+    #corpo-blue{
+        width: 90% !important;
+        justify-content: start;
+    }
+    #container-cobertura {
+        margin-top: -15px;
+    }
+    #container-escute > div {
+       padding: 0 15px;
+    }
+    
+}

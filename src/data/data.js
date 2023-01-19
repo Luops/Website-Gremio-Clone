@@ -146,6 +146,7 @@ export const News = [
   fixed: "Yes",
   URL: "https://gremio.net/"},
 ]
+
 export const ButtonGremioPlay = [
   {id: 1, text: "Saiba mais", URL: "https://gremio.net/"},
   {id: 2, text: "Cadastre-se", URL: "https://gremio.net/"},
