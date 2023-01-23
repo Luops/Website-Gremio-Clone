@@ -9,6 +9,15 @@ import CopaSaoPaulo from '../images/gre-mio-deixa-a-disputa-da-copa-sa-o-paulo-2
 import RecomecaPreTemporada from '../images/atletas-voltam-aos-trabalhos-na-pra--temporada-mr-jack_bet-34736.jpg'
 import Guia from '../images/guia.png'
 
+// Images Products
+import CamisaFeminina from '../images/SM-Camisa_Fem_Umbro_Of1_2022_Torcedora_Frente.jpg'
+import CamisaBranca2022 from '../images/SM-Camisa_Masc_Umbro_Of2_2022_Classic_SN_Frente.jpg'
+import CamisaAzul2022 from '../images/SM-Camisa_Masc_Umbro_Of1_2022_Atleta_SN_azul_Frente.jpg'
+import CamisaAzul2021 from '../images/SM-Camisa_Masc_Of1_2021_Atleta_SN_CelPtoBco_Frente.jpg'
+import Chinelo from '../images/SM-Havaianas_Gremio_Principal1.jpg'
+import CopoSuarez from '../images/SM-Copo_Suarez_Principal.jpg'
+
+
 /*Dados para o Header*/
 export const HeaderList = [
     {id: 1, option: "Futebol", URL: "/", 
@@ -151,4 +160,13 @@ export const ButtonGremioPlay = [
   {id: 1, text: "Saiba mais", URL: "https://gremio.net/"},
   {id: 2, text: "Cadastre-se", URL: "https://gremio.net/"},
   {id: 3, text: "Faça login", URL: "https://gremio.net/"},
+]
+
+export const Products = [
+  {id: 1, title: "Copo suárez 9", price: "R$ 15,99", image: CopoSuarez},
+  {id: 2, title: "Chinelo havaianas adulto unissex", price: "R$ 69,90", image: Chinelo},
+  {id: 3, title: "Camisa Grêmio I Masc. Atleta Umbro 2021 S/Nº", price: "R$ 159,90", image: CamisaAzul2021},
+  {id: 4, title: "Camisa Grêmio I Masc. Atleta Umbro 2022 S/Nº", price: "R$ 359,90", image: CamisaAzul2022},
+  {id: 5, title: "Camisa Grêmio I Feminina Classic Umbro 2022 S/Nº", price: "R$ 279,90", image: CamisaFeminina},
+  {id: 6, title: "Camisa Grêmio II Masc. Classic Umbro 2022 S/Nº", price: "R$ 299,90", image: CamisaBranca2022},
 ]

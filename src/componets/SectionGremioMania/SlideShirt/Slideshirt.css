@@ -1,0 +1,16 @@
+div.swiper-button-prev,
+div.swiper-button-next {
+   color: gray;
+   width: 75px;
+   height: 75px;
+   font-size: 10px;
+   background-color: white;
+   border-radius: 100%;
+   box-shadow: 0 0 10px rgb(191, 191, 191);
+   transition: .4s ease-in-out;
+}
+
+div.swiper-button-prev:hover,
+div.swiper-button-next:hover {
+    color: #02A8E7;
+}
