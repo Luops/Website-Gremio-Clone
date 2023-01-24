@@ -13,9 +13,9 @@ import LogoGremioMania from '../../images/logo-gremiomania.png'
 const SectionGremioMania = () => {
   return (
     <section className='w-100 flex flex-col py-5'>
-        <div className='flex flex-row sm:justify-center md:justify-between items-center px-20 py-5 pb-0 border-b-2 border-b-gray-300'>
+        <div id='container-logo' className='flex flex-row justify-between items-center px-20 py-5 pb-0 border-b-2 border-b-gray-300'>
             <img src={LogoGremioMania} alt="Grêmio Mania" className='pb-3 border-b-4 border-b-blue-400'/>
-            <p className='text-gray-500 italic sm:hidden md:block'>A loja oficial do Grêmio</p>
+            <p className='text-gray-500 italic'>A loja oficial do Grêmio</p>
         </div>
         <SlideShirt />
         <article id='article-outlet' className='max-w-none flex flex-row items-center justify-center'>

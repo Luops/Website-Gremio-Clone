@@ -17,6 +17,11 @@ import CamisaAzul2021 from '../images/SM-Camisa_Masc_Of1_2021_Atleta_SN_CelPtoBc
 import Chinelo from '../images/SM-Havaianas_Gremio_Principal1.jpg'
 import CopoSuarez from '../images/SM-Copo_Suarez_Principal.jpg'
 
+// Icons
+import {
+  FiCheck
+} from 'react-icons/fi'
+
 
 /*Dados para o Header*/
 export const HeaderList = [
@@ -169,4 +174,12 @@ export const Products = [
   {id: 4, title: "Camisa Grêmio I Masc. Atleta Umbro 2022 S/Nº", price: "R$ 359,90", image: CamisaAzul2022},
   {id: 5, title: "Camisa Grêmio I Feminina Classic Umbro 2022 S/Nº", price: "R$ 279,90", image: CamisaFeminina},
   {id: 6, title: "Camisa Grêmio II Masc. Classic Umbro 2022 S/Nº", price: "R$ 299,90", image: CamisaBranca2022},
+]
+
+export const QuadroSocial = [
+  {id: 1, text: "Programa de fidelidade", icon: <FiCheck />},
+  {id: 2, text: "Desconto em produtos oficiais", icon: <FiCheck />},
+  {id: 3, text: "Rede de convênios", icon: <FiCheck />},
+  {id: 4, text: "Promoções e ações exclusivas", icon: <FiCheck />},
+  {id: 5, text: "Ajuda o Grêmio", icon: <FiCheck />},
 ]

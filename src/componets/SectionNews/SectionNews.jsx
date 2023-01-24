@@ -37,7 +37,7 @@ const SectionNews = () => {
   return (
     <section className='w-100 flex flex-col py-8'>
       {/*Navegação - Botões*/}
-      <div className='w-100 flex justify-between px-[7%] border-b-2 border-b-gray-300'>
+      <div id='container-buttons' className='w-100 flex justify-between px-[7%] border-b-2 border-b-gray-300'>
         <ActiveButtonContext.Provider value={{ activeButtonId, setActiveButtonId }}>
           <MyButton id="button-1" text="Competições"/>
           <MyButton id="button-2" text="Recopa Gaúcha"/>

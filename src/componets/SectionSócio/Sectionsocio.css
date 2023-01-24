@@ -1,0 +1,26 @@
+#container {
+    background: #00adee url('../../images/bg-quadro-social.jpg') center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 945px) {
+    #container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #container div {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #container div p{
+        padding-right: 0;
+    }
+
+    #container div a {
+        align-self: center;
+    }
+}

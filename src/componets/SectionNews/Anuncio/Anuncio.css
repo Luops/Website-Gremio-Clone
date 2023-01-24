@@ -5,3 +5,21 @@
     background-position: center;
 }
 
+@media (max-width: 832px) {
+    #img-anuncio {
+        height: 130px;
+    }
+}
+
+@media (max-width: 530px) {
+    #img-anuncio {
+        height: 100px;
+    }
+}
+
+@media (max-width: 426px) {
+    #img-anuncio {
+        height: 80px;
+    }
+}
+

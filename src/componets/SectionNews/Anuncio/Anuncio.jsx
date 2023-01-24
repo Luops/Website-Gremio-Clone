@@ -30,7 +30,7 @@ const Anuncio = () => {
         modules={[Autoplay]}
         className='xl:w-[1120px] w-[90%]'>
           {Anuncios.map((Anuncio) => (
-            <SwiperSlide id='swiper-slide'className='' key={Anuncio.id} Anuncio={Anuncio}>
+            <SwiperSlide id='swiper-slide' className='' key={Anuncio.id} Anuncio={Anuncio}>
               <a className='xl:w-[1120px]' href={Anuncio.URL} target='_blank'>
                 <img id="img-anuncio" className='xl:w-[1120px]' src={Anuncio.image} alt={Anuncio.name} />
               </a>
