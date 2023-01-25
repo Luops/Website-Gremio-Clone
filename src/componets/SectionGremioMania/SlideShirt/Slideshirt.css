@@ -8,9 +8,11 @@ div.swiper-button-next {
    border-radius: 100%;
    box-shadow: 0 0 10px rgb(191, 191, 191);
    transition: .4s ease-in-out;
+   opacity: 60%;
 }
 
 div.swiper-button-prev:hover,
 div.swiper-button-next:hover {
     color: #02A8E7;
+    opacity: 100%;
 }

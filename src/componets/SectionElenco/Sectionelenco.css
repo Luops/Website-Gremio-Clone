@@ -1,0 +1,9 @@
+@media (max-width: 458px) {
+    #container-txt-elenco {
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+}
+
+

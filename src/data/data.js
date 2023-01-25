@@ -17,6 +17,14 @@ import CamisaAzul2021 from '../images/SM-Camisa_Masc_Of1_2021_Atleta_SN_CelPtoBc
 import Chinelo from '../images/SM-Havaianas_Gremio_Principal1.jpg'
 import CopoSuarez from '../images/SM-Copo_Suarez_Principal.jpg'
 
+// Image Elenco
+import Renato from '../images/jogadores/treinador-renato.jpg'
+import Adriel from '../images/jogadores/jogador-adriel.JPG'
+import Grando from '../images/jogadores/jogador-grando.jpg'
+import Jhonata from '../images/jogadores/jogador-jhonata.JPG'
+import Guilherme from '../images/jogadores/jogador-guilherme.jpg'
+import Suarez from '../images/jogadores/jogador-suarez.png'
+
 // Icons
 import {
   FiCheck
@@ -182,4 +190,13 @@ export const QuadroSocial = [
   {id: 3, text: "Rede de convênios", icon: <FiCheck />},
   {id: 4, text: "Promoções e ações exclusivas", icon: <FiCheck />},
   {id: 5, text: "Ajuda o Grêmio", icon: <FiCheck />},
+]
+
+export const Elenco = [
+  {id: 1, name: "Renato Portaluppi", position: "Treinado", image: Renato},
+  {id: 2, name: "Adriel", position: "Goleiro", image: Adriel},
+  {id: 3, name: "Gabriel Grando", position: "Goleiro", image: Grando},
+  {id: 4, name: "Guilherme", position: "Atacante", image: Guilherme},
+  {id: 5, name: "Jhonata Robert", position: "Atacante", image: Jhonata},
+  {id: 6, name: "Luis Suárez", position: "Atacante", image: Suarez},
 ]

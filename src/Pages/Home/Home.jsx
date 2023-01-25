@@ -10,6 +10,7 @@ import SectionGremioPlay from '../../componets/SectionGremioPlay/SectionGremioPl
 import SectionGremioRadio from '../../componets/SectionGremioRadio/SectionGremioRadio'
 import SectionGremioMania from '../../componets/SectionGremioMania/SectionGremioMania'
 import SectionSocio from '../../componets/SectionSócio/SectionSocio'
+import SectionElenco from '../../componets/SectionElenco/SectionElenco'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <SectionGremioRadio />
       <SectionGremioMania />
       <SectionSocio />
+      <SectionElenco />
     </div>
   )
 }

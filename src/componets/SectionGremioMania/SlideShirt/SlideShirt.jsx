@@ -52,7 +52,7 @@ const SlideShirt = () => {
                 slidesPerView: 5,
                 spaceBetween: 40,
             },  
-          }}
+        }}
         modules={[Navigation, Pagination, Autoplay]}
         className='w-100'>
             {Products.map((Products) => (
