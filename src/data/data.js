@@ -8,6 +8,8 @@ import FinalizaPreTemporada from '../images/gre-mio-finaliza-pra--temporada-mr_-
 import CopaSaoPaulo from '../images/gre-mio-deixa-a-disputa-da-copa-sa-o-paulo-2023-34753.jpg'
 import RecomecaPreTemporada from '../images/atletas-voltam-aos-trabalhos-na-pra--temporada-mr-jack_bet-34736.jpg'
 import Guia from '../images/guia.png'
+import Comunidade from '../images/social-comunidade-tri.jpg'
+import Instituto from '../images/social-igt.jpg'
 
 // Images Products
 import CamisaFeminina from '../images/SM-Camisa_Fem_Umbro_Of1_2022_Torcedora_Frente.jpg'
@@ -17,7 +19,7 @@ import CamisaAzul2021 from '../images/SM-Camisa_Masc_Of1_2021_Atleta_SN_CelPtoBc
 import Chinelo from '../images/SM-Havaianas_Gremio_Principal1.jpg'
 import CopoSuarez from '../images/SM-Copo_Suarez_Principal.jpg'
 
-// Image Elenco
+// Images Elenco
 import Renato from '../images/jogadores/treinador-renato.jpg'
 import Adriel from '../images/jogadores/jogador-adriel.JPG'
 import Grando from '../images/jogadores/jogador-grando.jpg'
@@ -199,4 +201,19 @@ export const Elenco = [
   {id: 4, name: "Guilherme", position: "Atacante", image: Guilherme},
   {id: 5, name: "Jhonata Robert", position: "Atacante", image: Jhonata},
   {id: 6, name: "Luis Suárez", position: "Atacante", image: Suarez},
+]
+
+export const Informations = [
+  {id: 1, 
+    title: "Comunidade tri", 
+    text: "A iniciativa visa o aprimoramento do entorno da Arena oportunizando à comunidade a melhoria de espaços de convívio e serviços públicos como ajardinamento, remoção de focos de lixo, reforço de sinalização, entre outros.",
+    subText: "Esta atitude transformará os bairros em uma região agradável.",
+    image: Comunidade
+  },
+  {id: 2, 
+    title: "Instituto Geração Tricolor", 
+    text: "Braço social do Clube, é uma associação sem fins lucrativos que tem por finalidade atender crianças e adolescentes em situação de vulnerabilidade social, por meio de atividades em horário inverso ao da escola.",
+    subText: "Fortalecer os vínculos familiares e comunitários é o objetivo.",
+    image: Instituto
+  },
 ]
