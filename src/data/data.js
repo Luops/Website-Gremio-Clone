@@ -29,8 +29,16 @@ import Suarez from '../images/jogadores/jogador-suarez.png'
 
 // Icons
 import {
-  FiCheck
+  FiCheck,
+  FiInstagram,
+  FiYoutube
 } from 'react-icons/fi'
+
+import { 
+  FaFacebookF,
+  FaTwitter
+} from 'react-icons/fa'
+
 
 
 /*Dados para o Header*/
@@ -216,4 +224,11 @@ export const Informations = [
     subText: "Fortalecer os vínculos familiares e comunitários é o objetivo.",
     image: Instituto
   },
+]
+
+export const SocialIcons = [
+  {id: 1, title: "Facebook", icon: <FaFacebookF />},
+  {id: 2, title: "Twitter", icon: <FaTwitter />},
+  {id: 3, title: "Instagram", icon: <FiInstagram />},
+  {id: 4, title: "Youtube", icon: <FiYoutube />},
 ]
