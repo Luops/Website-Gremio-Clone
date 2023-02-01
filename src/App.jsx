@@ -12,6 +12,7 @@ import Home from './Pages/Home/Home';
 
 //Components
 import Header from './componets/Header/Header';
+import Footer from './componets/Footer/Footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         </Routes>
       </main>
      </BrowserRouter>
+     <Footer />
     </div>
   );
 }

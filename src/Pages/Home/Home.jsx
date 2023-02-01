@@ -13,6 +13,7 @@ import SectionSocio from '../../componets/SectionSócio/SectionSocio'
 import SectionElenco from '../../componets/SectionElenco/SectionElenco'
 import SectionInformation from '../../componets/SectionInformation/SectionInformation'
 import SectionNewsLetter from '../../componets/SectionNewsLetter/SectionNewsLetter'
+import SectionPartners from '../../componets/SectionPartners/SectionPartners'
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <SectionElenco />
       <SectionInformation />
       <SectionNewsLetter />
+      <SectionPartners />
     </div>
   )
 }

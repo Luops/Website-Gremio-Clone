@@ -8,7 +8,7 @@ const Sublista = ({Sublist}) => {
   return (
     <>
     {Sublist.subText.length === 0 && (
-      <a className='ml-2 my-4 block' href={Sublist.URL} >
+      <a className='ml-2 my-4 block' href={Sublist.URL} target="_blank">
         {Sublist.text}
       </a>
     )}
@@ -17,7 +17,7 @@ const Sublista = ({Sublist}) => {
         <p>{Sublist.text}</p>
         <ul className='flex-col my-2 pl-5'>
         {Sublist.subText.map((SubText) => (
-          <a className='mt-2 text-xs text-gray-500 hover:text-black' href={SubText.URL}>
+          <a className='mt-2 text-xs text-gray-500 hover:text-black' href={SubText.URL} target="_blank">
             {SubText.subText1}
           </a>
         ))}

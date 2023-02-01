@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 //Components
 import Sublista from '../SubLista/Sublista'
@@ -18,12 +18,23 @@ import {
 //datas
 import {HeaderList, TextLogo} from '../../data/data'
 
-const Header = () => {
-  
 
+const Header = () => {
+  const [navBar, setNavBar] = useState(false)
+
+  // State para o header ao descer
+  const changeBackground = () => {
+    if(window.scrollY >= 10) {
+      setNavBar(true) 
+    } else {
+      setNavBar(false)
+    }
+
+  }
+  window.addEventListener('scroll', changeBackground)
   return (
     <header className='w-full bg-transparent'>
-      <nav className='w-full flex px-16 py-4 items-center justify-center'>
+      <nav className={navBar ? 'fixed w-full bg-black flex px-16 py-4 items-center justify-center z-10' : 'w-full flex px-16 py-4 items-center justify-center'}>
         {/*Logo*/}
         <div className='w-4/12 flex gap-4 '>
           <a href="/" className='w-20'>
