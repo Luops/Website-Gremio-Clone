@@ -17,7 +17,7 @@ import SectionPartners from '../../componets/SectionPartners/SectionPartners'
 
 const Home = () => {
   return (
-    <div className=''>
+    <>
       <SectionGame />
       <SectionNews />
       <SectionGremioPlay />
@@ -28,7 +28,7 @@ const Home = () => {
       <SectionInformation />
       <SectionNewsLetter />
       <SectionPartners />
-    </div>
+    </>
   )
 }
 

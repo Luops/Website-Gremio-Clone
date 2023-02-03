@@ -1,6 +1,7 @@
 //Images
 import LogoGremio from '../images/gremio-logo-escudo.png'
 import LogoSaoLuiz from '../images/sao-luiz.png'
+import LogoAimore from '../images/aimore.png'
 import Anuncio1 from '../images/anuncio1.jpg'
 import Anuncio2 from '../images/anuncio2.png'
 import LaranjeirasCup from '../images/gre-mio-vence-laranjeiras-cup-nas-categorias-sub-7--sub-8-e-sub-13-34757.jpeg'
@@ -125,12 +126,12 @@ export const NextGame = [
   {id: 1, 
     homeTeam: "Grêmio", 
     logoHome: LogoGremio, 
-    visitingTeam: "São Luiz", 
-    logoVisit: LogoSaoLuiz,
-    date: "17/01/2023",
-    hour: "19",
+    visitingTeam: "Aimoré", 
+    logoVisit: LogoAimore,
+    date: "04/02/2023",
+    hour: "16",
     minutes: "30",
-    championship: "Recopa Gaúcha 2023",
+    championship: "Gauchão 2023",
     place: "Arena do Grêmio",
     city: "Porto Alegre/RS"}
 ]

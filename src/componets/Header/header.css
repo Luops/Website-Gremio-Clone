@@ -7,6 +7,10 @@ header {
     background-clip: border-box;
 }
 
+nav {
+    z-index: 100 !important;
+}
+
 #list:hover {
     display: block;
 }
@@ -33,6 +37,10 @@ header {
 
 #botao:hover {
     border-bottom: 4px solid rgba(96, 165, 250, 1);
+}
+
+#navbar-mobile {
+    transition: .5s ease-in-out;
 }
 
 

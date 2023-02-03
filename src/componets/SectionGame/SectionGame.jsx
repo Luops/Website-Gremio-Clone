@@ -21,9 +21,9 @@ const SectionGame = () => {
       {NextGame.map((Game) => (
       <div className='flex items-center justify-center gap-5 max-[991px]:hidden'>
         <h3 className='text-white font-bold'>{Game.homeTeam}</h3>
-        <img id="image-logo" className='m-0' src={Game.logoHome} alt="Time Mandante" />
+        <img id="image-logo" className='m-0 max-w-none h-[70px] bg-clip-border' src={Game.logoHome} alt="Time Mandante" />
         <p className='text-white font-bold'>X</p>
-        <img id="image-logo" className='m-0' src={Game.logoVisit} alt="Time Visitante" />
+        <img id="image-logo" className='m-0 max-w-none h-[70px] bg-clip-border' src={Game.logoVisit} alt="Time Visitante" />
         <h3 className='text-white font-bold'>{Game.visitingTeam}</h3>
       </div>
       ))}
