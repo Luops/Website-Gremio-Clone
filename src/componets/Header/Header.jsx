@@ -83,10 +83,10 @@ const Header = () => {
       <nav className={navBar ? 'fixed w-full bg-black flex px-16 max-[1133px]:px-10 max-[470px]:px-5 py-4 max-[991px]:py-0 items-center justify-center max-[991px]:justify-between max-[470px]:gap-1' : 'w-full max-[991px]:bg-black flex px-16 max-[1133px]:px-10 max-[470px]:px-5 py-4 max-[991px]:py-0 items-center justify-center max-[991px]:justify-between max-[470px]:gap-1'}>
         {/*Logo*/}
         <div className='flex gap-2 max-[470px]:w-[200px]'>
-          <a href="/" className='w-20 max-[1133px]:w-10'>
+          <a href="/" className='w-20 max-[1133px]:w-[50px] '>
             <img src={GremioLogo} alt="Grêmio" className='' />
           </a>
-          <div className='flex flex-col justify-end py-2'>
+          <div className='flex flex-col justify-end py-2 max-[470px]:w-[200px]'>
             {TextLogo.map((Text) => (
               <h3 className='relative uppercase p-0 leading-4 max-[1133px]:leading-3 font-bold text-base max-[1133px]:text-[0.55em] text-white z-40 w-[165px] max-[1121px]:w-[100px] max-[470px]:w-[90px]'>{Text.text}</h3>
             ))}
@@ -227,7 +227,7 @@ const Header = () => {
         </ul>
 
         {/*Sublista do header - mobile*/}
-        <AnimatedNavBar id='navbar-mobile' moveLeft={moveLeft} show={show} className='fixed h-[100%] z-40 overflow-hidden overflow-y-scroll gap-0 pb-10 top-0 right-[-400px] mt-[90px] bg-black min-[992px]:hidden flex flex-col py-5' >
+        <AnimatedNavBar id='navbar-mobile' moveLeft={moveLeft} show={show} className='fixed bg-black h-[100%] z-40 overflow-hidden overflow-y-scroll gap-0 pb-10 top-0 right-[-400px] mt-[90px] min-[992px]:hidden flex flex-col py-5' >
           {HeaderList.map((List) => (
               <li className='py-5 px-10 border-b border-[#4D4D4D]'>
                 <a className='text-white font-bold text-[1.15em]' href={List.URL} target="_blank">
