@@ -82,7 +82,7 @@ const Header = () => {
     <header className='w-full bg-transparent'>
       <nav className={navBar ? 'fixed w-full bg-black flex px-16 max-[1133px]:px-10 max-[470px]:px-5 py-4 max-[991px]:py-0 items-center justify-center max-[991px]:justify-between max-[470px]:gap-1' : 'w-full max-[991px]:bg-black flex px-16 max-[1133px]:px-10 max-[470px]:px-5 py-4 max-[991px]:py-0 items-center justify-center max-[991px]:justify-between max-[470px]:gap-1'}>
         {/*Logo*/}
-        <div className='flex gap-2'>
+        <div className='flex gap-2 max-[470px]:w-[200px]'>
           <a href="/" className='w-20 max-[1133px]:w-10'>
             <img src={GremioLogo} alt="Grêmio" className='' />
           </a>
